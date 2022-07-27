@@ -101,7 +101,6 @@ for(i in 1:41) {
   autores[i,3]=sum(auto[1,14,seq(1,1000,1)]>=auto[i,7,1])/1000
 }
 head(autores)
-autores$ec=1-autores$ec
 range(autores$ec)
 
 auto[,7,1]
